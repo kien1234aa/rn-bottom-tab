@@ -1,4 +1,4 @@
-# @your-username/rn-bottom-tab
+# @kien0g/rn-bottom-tab
 
 A lightweight, customizable Bottom Tab Bar component for React Native — supports icons, badges, animated indicators, and full TypeScript support.
 
@@ -19,9 +19,9 @@ A lightweight, customizable Bottom Tab Bar component for React Native — suppor
 ## Installation
 
 ```bash
-npm install @your-username/rn-bottom-tab
+npm install @kien0g/rn-bottom-tab
 # or
-yarn add @your-username/rn-bottom-tab
+yarn add @kien0g/rn-bottom-tab
 ```
 
 > **Peer dependencies:** `react >= 17`, `react-native >= 0.68`
@@ -33,8 +33,8 @@ yarn add @your-username/rn-bottom-tab
 ```tsx
 import React, { useState } from 'react';
 import { View, Text } from 'react-native';
-import { BottomTab } from '@your-username/rn-bottom-tab';
-import type { TabItem } from '@your-username/rn-bottom-tab';
+import { BottomTab } from '@kien0g/rn-bottom-tab';
+import type { TabItem } from '@kien0g/rn-bottom-tab';
 
 const tabs: TabItem[] = [
   {
